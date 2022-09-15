@@ -5,7 +5,7 @@ import {  AiOutlineSearch } from "react-icons/ai";
 const Hero = () => {
   return (
     <div className={styles.hero}>
-        <form>
+        {/* <form>
             <div className={styles.text}>
                 <label>Where</label>
                 <input className={styles.input_text} type="text" placeholder='Sesrch Location' />
@@ -24,7 +24,7 @@ const Hero = () => {
                 <AiOutlineSearch className={styles.icon} />
                 <button className={styles.btn}>Search for cars</button>
             </div>
-        </form>
+        </form> */}
     </div>
   )
 }
