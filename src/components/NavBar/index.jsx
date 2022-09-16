@@ -10,7 +10,7 @@ const NavBar = () => {
     console.log(styles)
     return (
         <div className={styles.navbar}>
-            <img className={styles.img_lodo} src={logo} alt="/" />
+            <img className={styles.img_logo} src={logo} alt="/" />
             <nav>
                 <ul className={nav ? [styles.menu, styles.active].join(' ') : [styles.menu]}>
                     <li>
